@@ -12,10 +12,19 @@
     "test": "vitest"
   },
   "dependencies": {
-    "fast-glob": "^3.3.3"
+    "connect-redis": "^8.1.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "fast-glob": "^3.3.3",
+    "ioredis": "^5.6.1",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@types/chai": "^5.2.2",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/express": "^5.0.2",
+    "@types/express-session": "^1.18.1",
     "@types/node": "^22.15.17",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
